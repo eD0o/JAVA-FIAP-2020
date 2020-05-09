@@ -1,0 +1,39 @@
+package banco_fiap;
+
+public class CaixaEletronico {
+	
+	private Conta contaAtiva;
+	
+	public float sacar(float valor) {
+		
+		if(contaAtiva.getSaldo()<valor) {
+			System.out.println("Saldo insuficiente.");
+		}
+		
+		else {
+			float saldoRestante = contaAtiva.getSaldo() - valor;
+			//contaAtiva.setSaldo(contaAtiva.getSaldo() - valor);
+			contaAtiva.setSaldo(saldoRestante);
+		}
+		
+		return contaAtiva.getSaldo();
+	}
+	
+	public float depositar(float valor) {
+	
+		return valor;
+	
+	}
+	
+	public void imprimirDadosConta() {
+		
+	}
+
+	public Conta getContaAtiva() {
+		return contaAtiva;
+	}
+
+	public void setContaAtiva(Conta contaAtiva) {
+		this.contaAtiva = contaAtiva;
+	}
+}

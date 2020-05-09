@@ -1,0 +1,26 @@
+
+public class Mascara {
+
+	private String tipoTecido;
+	private boolean tamanhoAdulto;
+	
+	public String exibirInstrucoes() {
+		
+	}
+	
+	public String getTipoTecido() {
+		return tipoTecido;
+	}
+	public void setTipoTecido(String tipoTecido) {
+		this.tipoTecido = tipoTecido;
+	}
+	public boolean isTamanhoAdulto() {
+		return tamanhoAdulto;
+	}
+	public void setTamanhoAdulto(boolean tamanhoAdulto) {
+		this.tamanhoAdulto = tamanhoAdulto;
+	}
+	
+	
+
+}

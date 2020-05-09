@@ -1,0 +1,13 @@
+package exemplos;
+
+import javax.swing.JOptionPane;
+
+public class exemp1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		JOptionPane.showInputDialog("Digite sua idade:");
+		JOptionPane.showMessageDialog(null, "AA");
+	}
+
+}

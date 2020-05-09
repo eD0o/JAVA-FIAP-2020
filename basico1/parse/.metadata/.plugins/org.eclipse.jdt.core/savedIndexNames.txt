@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\Users\eduar\Documents\programming\workspace\fiap\DDD\workspace-padrao\exs4.1\parse\.metadata\.plugins\org.eclipse.jdt.core
+233012860.index
+3729989476.index

@@ -1,0 +1,17 @@
+package banco_fiap;
+
+import java.time.LocalDate;
+
+public class AplicacaoBancaria {
+	public static void main(String[] args) {
+		Aluno aluno = new Aluno();
+		aluno.setNome("Alexandre");
+		aluno.setCpf("123.456.789-00");
+		
+		LocalDate dataDeNascimento = LocalDate.of(1985, 1, 16);
+		
+		aluno.setDataNascimento(dataDeNascimento);
+		
+		System.out.println(aluno);
+	}
+}

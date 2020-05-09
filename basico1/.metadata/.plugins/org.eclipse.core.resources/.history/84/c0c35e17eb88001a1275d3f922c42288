@@ -1,0 +1,22 @@
+package ex1;
+
+import javax.swing.JOptionPane;
+
+public class main {
+
+	public static void main(String[] args) {
+		
+		/* Escreva um programa em Java para calcular o salário de um funcionário. Ao ser executado, o
+		   programa deverá solicitar ao usuário o número de horas trabalhadas e o valor da hora de trabalho
+		   e então deverá exibir no console o salário a ser pago. Para o cálculo do salário utilize a seguinte
+		   fórmula:
+	 	   salario = horas trabalhadas * valor da hora de trabalho
+		 */
+		
+		
+	    int horasTrabalhadas = Integer.parseInt(JOptionPane.showInputDialog("Digite a quantidade de horas trabalhadas: "));
+		JOptionPane.showMessageDialog(null, "aa");
+		JOptionPane.showMessageDialog(null,horasTrabalhadas);
+		
+	}
+}

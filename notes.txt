@@ -1,0 +1,31 @@
+LocalDate ->
+LocalDateTime
+Calendar
+
+
+Classe é definida por um arquvo com a extensão .java ->
+É a representação dos objetos. 
+Essas classes podem ter várias instâncias que são os objetos.
+Utiliza padrão UpperCamelCase.
+
+[modificador de visibilidade] class [NomeDaClasse]{
+
+[atributos]
+[construtores]
+[métodos]
+
+}
+
+Atributos são características de uma classe, que podem ser primitivas ou referências de outras classes.
+Primeiros a serem declarados em uma classe.
+Utiliza padrão lowerCamelCase.
+
+[modificador de visibilidade] [tipo] [nomeDoAtributo]
+
+
+Construtores são uma forma que temos de criar um objeto (instância) de um classe.
+
+
+
+
+getters e setters não vão nos diagramas de classes.

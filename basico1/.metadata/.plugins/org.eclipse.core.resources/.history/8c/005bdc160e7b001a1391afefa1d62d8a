@@ -1,0 +1,15 @@
+package for_each;
+
+public class ex1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//1 - Imprima todos os números de 0 a 100 utilizando for, while e do/while.
+		
+		public static void() {
+			System.out.print("A");
+		}
+		
+	}
+
+}

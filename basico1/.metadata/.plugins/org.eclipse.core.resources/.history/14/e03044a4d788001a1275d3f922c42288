@@ -1,0 +1,11 @@
+package banco_fiap;
+
+public class AplicacaoBancaria {
+	public static void main(String[] args) {
+		Aluno aluno = new Aluno();
+		aluno.setNome("Alexandre");
+		aluno.setCpf("123.456.789-00");
+		
+		System.out.println(aluno);
+	}
+}

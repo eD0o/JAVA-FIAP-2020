@@ -1,0 +1,9 @@
+package exemplos;
+
+import javax.swing.JOptionPane;
+
+public class exemp1 {
+	String textoNumero = JOptionPane.showInputDialog("Digite um número");
+	
+	JOptionPane.showMessageDialog("Número digitado: " + textoNumero);
+}

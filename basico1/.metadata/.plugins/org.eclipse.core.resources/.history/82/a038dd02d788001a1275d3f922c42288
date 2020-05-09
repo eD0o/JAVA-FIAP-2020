@@ -1,0 +1,13 @@
+package banco_fiap;
+
+import java.time.LocalDate;
+
+public class Aluno {
+	
+	//por enquanto tudo private por conta do encapsulamento
+	//métodos getters and setters vão deixar as vars públicas
+	private String nome;
+	private LocalDate dataNascimento;
+	private String cpf;
+	
+}

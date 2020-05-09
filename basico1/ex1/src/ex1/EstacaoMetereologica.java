@@ -1,0 +1,17 @@
+package ex1;
+
+public class EstacaoMetereologica {
+	private int id;
+	private String nome;
+	private double latitude;
+	private double longitude;
+	private boolean emOperacao;
+	
+	public String relatarStatus() {
+		
+	}
+	
+	public int reiniciar(int delay,interromperProcessos boolean) {
+		
+	}
+}

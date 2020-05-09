@@ -1,0 +1,61 @@
+package ex5;
+
+public class respostas {
+
+	/*1. O que são tipos primitivos?
+	 *
+	 * Tipos primitivos são os tipos mais simples de dados.
+	 * 
+	 * */
+			
+	/*2. Quais são os tipos de dados primitivos em Java?
+	 * 
+	 * INT -> byte, short, int, long
+	 * FLOAT -> float, double
+	 * CHART -> CHART
+	 * BOOLEAN -> boolean false/true
+	 *  
+	 * */
+	
+	/*3. Demonstre como declarar e atribuir valores para variáveis dos tipos primitivos: char, int,
+	*float, long e double. (Escreva um trecho de código em Java)
+	*
+	* char a = "a";
+	* String b = "b";
+	* long n = 4658464646464768;
+	* double decimal = 3.14;
+	*/
+	
+	
+	/*4. Qual a principal diferença entre os tipos primitivos e os tipos por referência em Java?
+	 * Tipos primitivos são os mais simples, tipos por referência são usadas para referenciar objetos.
+	 */
+	
+	/*5. Explique o que é uma variável de referência. Dê um exemplo de atribuição para uma variável de referência
+	 * Variável de referência é usada para armazenar num local chamado heap referências de objetos.
+	 * 
+	 *  Aluno titular;
+	 *  Conta contaativa;
+	 */
+	
+	
+	/*6. O que são palavras reservadas? Dê exemplos
+	 * Palavras que não podem ser usadas pois já são referências para outros contextos da programação
+	 * Exemplo: não há como usar uma variável chamada String pois esse é um nome padrão para tipo.
+	 */
+	
+	/*
+	 * Quais das seguintes declarações são válidas? (Marque todas as corretas)
+		a. int $x
+		b. int 123
+		c. int _123
+		d. int #dim
+		e. int %percent
+		f. int *divide
+		
+		a e c
+	 */
+
+	int $x;
+	int _123;
+}

@@ -1,0 +1,20 @@
+package ex1;
+
+public class DirecaoVento {
+	char simbolo;
+	String texto;
+	public char getSimbolo() {
+		return simbolo;
+	}
+	public void setSimbolo(char simbolo) {
+		this.simbolo = simbolo;
+	}
+	public String getTexto() {
+		return texto;
+	}
+	public void setTexto(String texto) {
+		this.texto = texto;
+	}
+	
+	
+}

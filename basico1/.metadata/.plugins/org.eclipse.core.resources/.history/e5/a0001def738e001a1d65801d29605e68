@@ -1,0 +1,28 @@
+
+public class Fabrica {
+	
+	private int qtdMateriaPrima;
+	private boolean funcionarioTrabalhando;
+	
+	public List<Mascara> gerarMascaras(int qtd){
+		
+		
+		
+	}
+	
+	public int getQtdMateriaPrima() {
+		return qtdMateriaPrima;
+	}
+	public void setQtdMateriaPrima(int qtdMateriaPrima) {
+		this.qtdMateriaPrima = qtdMateriaPrima;
+	}
+	public boolean isFuncionarioTrabalhando() {
+		return funcionarioTrabalhando;
+	}
+	public void setFuncionarioTrabalhando(boolean funcionarioTrabalhando) {
+		this.funcionarioTrabalhando = funcionarioTrabalhando;
+	}
+	
+	
+	
+}

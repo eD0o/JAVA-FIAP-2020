@@ -1,0 +1,28 @@
+package for_each;
+
+public class ex1 {
+
+	public static void main(String[] args) {
+		//1 - Imprima todos os números de 0 a 100 utilizando for, while e do/while.
+		
+		switch{
+			case 1:
+				for_1();
+			case 2:
+				while_2();
+			case 3:
+		}
+		
+	}
+	public static void for_1(){
+		System.out.print("A");
+	}
+	
+	public static void while_2() {
+		
+	}
+	
+	public static void dowhile_3() {
+		
+	}
+}
