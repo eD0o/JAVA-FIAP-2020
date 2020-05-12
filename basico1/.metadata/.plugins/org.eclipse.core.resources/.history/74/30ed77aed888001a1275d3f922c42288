@@ -1,8 +1,0 @@
-package banco_fiap;
-
-public class Conta {
-	private Aluno titular;
-	private float saldo;
-	private String numeroConta;
-	
-}

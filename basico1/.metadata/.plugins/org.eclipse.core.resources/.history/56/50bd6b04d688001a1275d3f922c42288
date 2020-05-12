@@ -1,5 +1,0 @@
-package banco_fiap;
-
-public class Aluno {
-	private String nome;
-}

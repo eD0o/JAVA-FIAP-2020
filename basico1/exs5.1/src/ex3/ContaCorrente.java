@@ -5,6 +5,7 @@ public class ContaCorrente {
 	private int agenciaContaCorrente;
 	private String numeroContaCorrente;
 	private double saldo;
+	
 	double saldoAtual;	
 	
 	public double depositar(double valor) {
@@ -28,6 +29,6 @@ public class ContaCorrente {
 	}
 
 	public void exibirSaldo() {
-		System.out.println(saldoAtual);
+		System.out.println("Olá " + titular + ", o seu saldo é de: R$" + saldoAtual);
 	}	
 }

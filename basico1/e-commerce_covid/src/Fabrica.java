@@ -5,7 +5,7 @@ public class Fabrica {
 	private int qtdMateriaPrima;
 	private boolean funcionarioTrabalhando;
 	
-	public List<Mascara> gerarMascaras(int qtd){
+	public List <Mascara> gerarMascaras(int qtd){
 		
 		List<Mascara> ListaMascaras = new ArrayList<>();
 		

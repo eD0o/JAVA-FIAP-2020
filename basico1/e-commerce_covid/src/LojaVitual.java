@@ -5,7 +5,7 @@ public class LojaVitual {
 	
 	public boolean venderMascaras(int qtd){
 		if(estoque>=qtd) {
-			System.out.println("Vendendo" + qtd + "máscara(s).")
+			System.out.println("Vendendo" + qtd + "máscara(s).");
 		}
 		
 		else {
