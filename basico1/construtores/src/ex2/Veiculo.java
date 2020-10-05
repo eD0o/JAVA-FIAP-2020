@@ -15,6 +15,16 @@ public class Veiculo {
 		this.modelo = modelo;
 	}
 	
+	public boolean validacao(int ano) {
+		
+		if(ano>=1900 && ano<=2020) {
+			return true;
+		}
+		
+		else {
+			return false;
+		}
+	}
 	
 	public String getPlaca() {
 		return placa;

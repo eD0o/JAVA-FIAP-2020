@@ -1,0 +1,5 @@
+pra que o construtor no ex3?
+
+por que preciso fazer o construtor vazio sendo q já fiz o q chama os argumentos e inicializa?
+
+ex7 o construtor com um parametro pq tb retorna true ? só pq setei na var? pode isso arnaldo?
